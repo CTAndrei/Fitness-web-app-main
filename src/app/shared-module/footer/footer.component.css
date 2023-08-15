@@ -1,0 +1,85 @@
+.footer {
+  margin: auto;
+  max-width: 1400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 4px #77787d;
+  padding: 30px 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-btn {
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  line-height: 2.5em;
+  padding-left: 1em;
+  padding-right: 2em;
+  background: #77787d;
+  color: white;
+  &:after {
+    border-left: 20px solid #77787d;
+  }
+}
+
+.ant-btn {
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  line-height: 2.5em;
+  padding-left: 1em;
+  padding-right: 2em;
+  background: #77787d;
+  color: white;
+  &:after {
+    border-right: 20px solid #77787d;
+  }
+}
+
+.post-btn:after {
+  content: "";
+  position: absolute;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -20px;
+  right: 0;
+}
+
+.ant-btn:after {
+  content: "";
+  position: absolute;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  height: 0px;
+  left: -20px;
+}
+
+.post-btn:hover,
+.post-btn:active {
+  background: #3f51b5;
+  color: white;
+  &:after {
+    border-left: 20px solid #3f51b5;
+  }
+}
+
+.ant-btn:hover,
+.ant-btn:active {
+  background: #3f51b5;
+  color: white;
+  &:after {
+    border-right: 20px solid #3f51b5;
+  }
+}

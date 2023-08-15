@@ -1,0 +1,17 @@
+.tab {
+  width: 100%;
+  height: auto;
+  border: solid 4px #77787d;
+  padding: 50px;
+  /* height: 610px; */
+  border-radius: 5px;
+}
+
+.dashboard-container {
+  padding: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

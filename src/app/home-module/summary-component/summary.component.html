@@ -1,0 +1,38 @@
+<mat-card class="center-card">
+  <ng-container *ngFor="let day of summaryDays; let i = index">
+    <mat-card-content class="center-card-content">{{
+      days[i]
+    }}</mat-card-content>
+    <div *ngIf="day.morningActivity.type !== ''" class="morning-day-container">
+      <ng-container *ngFor="let item of objectKeys(day)">
+        <div *ngIf="item == 'morningActivity'" class="morning-day-title">
+          {{ item ? "Morning Activity" : null }}
+        </div>
+      </ng-container>
+      <div>{{ day.morningActivity.start | date : "shortTime" }}</div>
+      <div>{{ day.morningActivity.end | date : "shortTime" }}</div>
+      <div>{{ day.morningActivity.type }}</div>
+    </div>
+    <div *ngIf="day.eveningActivity.type !== ''" class="evening-day-container">
+      <ng-container *ngFor="let item of objectKeys(day)">
+        <div *ngIf="item == 'eveningActivity'" class="evening-day-title">
+          {{ item ? "Evening Activity" : null }}
+        </div>
+      </ng-container>
+      <div>{{ day.eveningActivity.start | date : "shortTime" }}</div>
+      <div>{{ day.eveningActivity.end | date : "shortTime" }}</div>
+      <div>{{ day.eveningActivity.type }}</div>
+    </div>
+  </ng-container>
+
+  <div class="container">
+    <hr class="horizontal-line" />
+  </div>
+  <mat-card-content class="center-card-rezumat"
+    >Total:
+    {{ calculateTotalsHours() | number : "1.0-0" }} ore</mat-card-content
+  >
+  <mat-card-content class="center-card-rezumat"
+    >KCalorii consumate:{{ calculateTotalCalories() }}</mat-card-content
+  >
+</mat-card>

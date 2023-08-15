@@ -1,0 +1,63 @@
+.center-card {
+
+    width: 100%; 
+    margin:  0 auto; 
+    display: flex;
+    border:  solid  black;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.center-card-content {
+    margin: 10px;  
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+  
+.container {
+    
+  width: 100%;
+  display: flex;
+  
+      
+}
+  
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+  
+  .center-card-rezumat {
+    margin: 10px;
+    display: flex-end;
+    justify-content: space-between; 
+    align-items: right;
+    font-weight: bold; 
+    margin-left: auto;  
+  }
+  
+  .morning-day-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: space-between;
+    padding-left: 1.1rem;
+
+  }
+
+  .evening-day-container{
+    padding-left: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .morning-day-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  .evening-day-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }

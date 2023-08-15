@@ -1,0 +1,25 @@
+.center-card {
+  width: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  border: solid black;
+
+  margin-top: 2rem;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding-bottom: 2rem;
+}
+
+.activity {
+  width: 80%;
+
+  margin-top: 1rem;
+}

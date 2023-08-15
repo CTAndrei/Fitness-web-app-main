@@ -1,0 +1,105 @@
+.form{
+
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid burlywood;
+    width: 50%;
+    padding: 1rem;
+    box-shadow: 1px slategray;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.user-container > input{
+
+    outline: none;
+    border: 1px solid rgb(195, 172, 142);
+    padding: 4px 8px;
+
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.password-container > input{
+    outline: none;
+    border: 1px solid rgb(195, 172, 142);
+    padding: 4px 8px;
+}
+
+.button-container{
+
+    width: 100%;
+
+}
+
+.button-container > button{
+
+    width: 100%;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: blanchedalmond;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+
+}
+
+.circle-loading{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: rgb(155, 119, 64);
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.form-header{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.not-existent-error{
+    background-color: rgb(209, 64, 64);
+    color: rgb(235, 158, 158);
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem 0rem;
+    text-align: center;
+}
+
+.incorect-credentials{
+    background-color: rgb(209, 64, 64);
+    color: rgb(235, 158, 158);
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem 0rem;
+    text-align: center;
+}
+

@@ -1,0 +1,50 @@
+<div class="grid-container">
+    <h1 class="mat-h1">Dashboard</h1>
+    <mat-grid-list cols="{{ ( cardLayout | async )?.columns }}" rowHeight="200px">
+      <mat-grid-tile 
+      [colspan]="( cardLayout | async )?.chart?.cols" 
+      [rowspan]="( cardLayout | async )?.chart?.rows">
+        <app-card title="Kcal-Saptamana">
+          <div>
+            <app-bar-chart [caloriiPerZi]="caloriiPerZi" typeChart="kcal"></app-bar-chart>
+          </div>
+        </app-card>
+      </mat-grid-tile>
+      <mat-grid-tile 
+      [colspan]="( cardLayout | async )?.chart?.cols" 
+      [rowspan]="( cardLayout | async )?.chart?.rows">
+        <app-card title="Kcal-Saptamana">
+          <div>
+            <app-bar-chart [caloriiPerZi]="caloriiPerZi" typeChart="kcalDimS"></app-bar-chart>
+          </div>
+        </app-card>
+      </mat-grid-tile>
+      <mat-grid-tile 
+      [colspan]="( cardLayout | async )?.chart?.cols" 
+      [rowspan]="( cardLayout | async )?.chart?.rows">
+        <app-card title="Ponderea Sportului (KCal)">
+          <div>
+            <app-doughnut-chart [activitati]="activitati" chartType="kcal"></app-doughnut-chart>
+          </div>
+        </app-card>
+      </mat-grid-tile>
+      <mat-grid-tile 
+      [colspan]="( cardLayout | async )?.chart?.cols" 
+      [rowspan]="( cardLayout | async )?.chart?.rows">
+        <app-card title="Ponderea Sportului (Minute)">
+          <div>
+            <app-doughnut-chart [activitati]="activitati" chartType="ore"></app-doughnut-chart>
+          </div>
+        </app-card>
+      </mat-grid-tile>
+      <mat-grid-tile 
+      [colspan]="( cardLayout | async )?.table?.cols" 
+      [rowspan]="( cardLayout | async )?.table?.rows">
+        <app-card title="KCal / Ora">
+          <div>
+            <app-line-chart [caloriiPerOra]="caloriiPerOra"></app-line-chart>
+          </div>
+        </app-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+   </div>

@@ -1,0 +1,85 @@
+fieldset,
+select,
+input {
+  border: solid black;
+}
+
+fieldset {
+  /* margin: 1rem; */
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  border-radius: 0.3rem;
+
+  min-width: 10rem;
+
+  max-width: 100%;
+
+  max-height: 20rem;
+
+  min-height: 10rem;
+}
+
+.inside {
+  background-color: transparent;
+
+  width: 100%;
+
+  border: none;
+
+  box-shadow: none;
+}
+
+.dropdown {
+  width: 8.2rem;
+
+  height: 2.5rem;
+
+  border-radius: 0.3rem;
+}
+
+.time {
+  width: 7.7rem;
+
+  height: 2.2rem;
+
+  min-width: 4rem;
+
+  border-radius: 0.3rem;
+}
+
+.column1 {
+  flex: 0 0 auto;
+
+  display: flex;
+
+  max-width: max-content;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  padding-top: 0.5rem;
+
+  padding-bottom: 0.5rem;
+}
+
+.column2 {
+  display: flex;
+
+  flex: 1 1 auto;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  padding-right: 0.5rem;
+}
+
+.center-card-content {
+  margin: 0.5rem;
+}

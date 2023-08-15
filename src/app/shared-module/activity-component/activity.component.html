@@ -1,0 +1,42 @@
+<fieldset>
+  <legend>{{ label }}</legend>
+
+  <mat-card class="inside">
+    <mat-card-content class="center-card-content">
+      Activitate &nbsp;
+
+      <select class="dropdown" (change)="onTypeChange($event)">
+        <option value="" selected disabled hidden>Alege sportul</option>
+        <option value="Alergare Usoara">Alergare Usoara</option>
+
+        <option value="Karate">Karate</option>
+
+        <option value="Tenis">Tenis</option>
+
+        <option value="Inot">Inot</option>
+
+        <option value="Fotbal">Fotbal</option>
+
+        <option value="Handbal">Handbal</option>
+
+        <option value="Volei">Volei</option>
+      </select>
+    </mat-card-content>
+
+    <mat-card-content class="center-card-content"
+      >De la &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input
+        type="time"
+        name="time"
+        class="time"
+        (change)="onStartChange($event)"
+    /></mat-card-content>
+
+    <mat-card-content class="center-card-content"
+      >Pana la &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input
+        type="time"
+        name="time"
+        class="time"
+        (change)="onEndChange($event)"
+    /></mat-card-content>
+  </mat-card>
+</fieldset>
