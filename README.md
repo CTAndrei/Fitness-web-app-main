@@ -26,14 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-![Screenshot 2023-08-06 155959](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/4a745557-3ec9-4be1-a3eb-89af39e09395)
+![Screenshot 2023-08-06 155959](https://snipboard.io/CoIU4j.jpg)
 
-![Screenshot 2023-08-06 160032](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/024f308c-533c-4961-bfd9-af5053195bea)
+![Screenshot 2023-08-06 160053](https://snipboard.io/BVH68G.jpg)
 
-![Screenshot 2023-08-06 160053](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/49a648ff-bfdd-461f-be9c-7ef9d511452c)
+![Screenshot 2023-08-06 160122](https://snipboard.io/WfokUI.jpg)
 
-![Screenshot 2023-08-06 160122](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/2a52f4b0-ab79-4195-a0b1-ba6d174bb9f3)
+![Screenshot 2023-08-06 160148](https://snipboard.io/GsDpjV.jpg)
 
-![Screenshot 2023-08-06 160148](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/404b7fb9-de75-4ff7-ab71-207881030c6b)
-
-![Screenshot 2023-08-06 160212](https://github.com/AlexDima02/Fitness-web-app/assets/106831310/a58c7ab9-52b8-4f33-b37d-26b9a88672b6)
+![Screenshot 2023-08-06 160212](https://snipboard.io/7o0DVz.jpg)
